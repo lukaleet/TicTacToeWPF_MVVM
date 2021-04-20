@@ -37,7 +37,7 @@
             <RowDefinition Height="20" />
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="1" Grid.Column="1">Witaj kółko i krzyżyk</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="1">Witaj kółko w i krzyżyk</TextBlock>
         <TextBlock Grid.Row="1" Grid.Column="1" Margin="0 180 0 0">Podaj imiona graczy:</TextBlock>
         
         <TextBox Grid.Row="2" Grid.Column="1" Margin="10 15 10 15" 

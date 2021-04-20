@@ -47,8 +47,6 @@ namespace TicTacToeWPF_MVVM.Model
         // display whose round is it
         public string WhoseRound()
         {
-            // beautiful LINQ expression
-            // retrieve player from players, whose IsTurn == true
             var player = Players.First(x => x.IsTurn == false);
 
             return $"Tura gracza: {player.Name}, gra on znakiem {player.Mark}";
